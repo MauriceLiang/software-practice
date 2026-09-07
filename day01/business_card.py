@@ -15,7 +15,7 @@ def main():
     print(f"{'年龄':<8}：{age} 岁")
     print(f"{'专业':<8}：{major}")
     print(f"{'爱好':<8}：{hobby}")
-    print(f"{'明年年龄':<8}：{age + 1} 岁")
+    print(f"{'明年年龄':<6}：{age + 1} 岁")
     print(border)
 
 
