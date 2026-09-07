@@ -9,13 +9,13 @@ def main():
 
     border = "=" * 40
     print(border)
-    print(f"{'个人名片':^40}")
+    print(f"个人名片")
     print(border)
-    print(f"{'姓名':<8}：{name}")
-    print(f"{'年龄':<8}：{age} 岁")
-    print(f"{'专业':<8}：{major}")
-    print(f"{'爱好':<8}：{hobby}")
-    print(f"{'明年年龄':<6}：{age + 1} 岁")
+    print(f"姓名':{name}")
+    print(f"年龄':{age} 岁")
+    print(f"专业：{major}")
+    print(f"爱好：{hobby}")
+    print(f"明年年龄：{age + 1} 岁")
     print(border)
 
 
