@@ -13,13 +13,15 @@ NUC 软件工程专业「人工智能软件开发与应用」方向实训的课�
 
 ## 运行
 
-每个脚本都是独立入口，直接用仓库自带的虚拟环境运行：
+每个脚本都是独立入口，在仓库根目录下这样运行：
 
 ```bash
-.venv/bin/python day01/第一个程序.py
+python day01/第一个程序.py
 ```
 
-- Python 3.14.7（`.venv`），无第三方依赖，`requirements.txt` 为空。
+- 需要 Python 3，无第三方依赖（`requirements.txt` 为空），clone 下来不用装任何东西。
+- macOS 上命令是 `python3`，把上面的 `python` 换成 `python3` 就行。
+- 本机开发用的是虚拟环境 `.venv`（Python 3.14.7）。虚拟环境不进版本库，仓库里没有，用自己电脑上的 Python 跑即可。
 - `day01` 下的部分脚本用 `input()` 交互式读取输入，运行后需要在终端里输入内容。
 
 ## 约定
